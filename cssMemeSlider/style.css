@@ -265,6 +265,7 @@ h1 {
     .slider__caption .slide {
         text-align: center;
         padding: 0;
+        font-size: 1.4rem;
     }
 
     .slider__control label::before {
