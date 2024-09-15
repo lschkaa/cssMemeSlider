@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>MeMeS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mitr:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    
+    <h1>meme's page</h1>
+    <div class="main">
+        <div class="slider__wrapper" role="slider">
+            <input type="radio" id="r1" name="slider__control" checked="checked"/>
+            <input type="radio" id="r2" name="slider__control"/>
+            <input type="radio" id="r3" name="slider__control"/>
+            <input type="radio" id="r4" name="slider__control"/>
+            <input type="radio" id="r5" name="slider__control"/>
+            <input type="radio" id="r6" name="slider__control"/>
+            <div class="slider__wrapper-content">
+                <div class="slider__content">
+                    <div class="slide slide-1"></div>
+                    <div class="slide slide-2"></div>
+                    <div class="slide slide-3"></div>
+                    <div class="slide slide-4"></div>
+                    <div class="slide slide-5"></div>
+                    <div class="slide slide-6"></div>
+                </div>
+            </div>
+            <div class="slider__wrapper-text">
+                <div class="slider__caption">
+                    <p class="slide slide-1">не жуйте жвачки</p>
+                    <p class="slide slide-2">ни пуха, ни пера</p>
+                    <p class="slide slide-3">хрусteam</p>
+                    <p class="slide slide-4">лонгсливы</p>
+                    <p class="slide slide-5">подходит к салатам и говорит...</p>
+                    <p class="slide slide-6">ну давай, шлепни по мне я созрел</p>
+                </div>
+            </div>
+            <div class="slider__control">
+                <label class="slider__control-1" for="r1"></label>
+                <label class="slider__control-2" for="r2"></label>
+                <label class="slider__control-3" for="r3"></label>
+                <label class="slider__control-4" for="r4"></label>
+                <label class="slider__control-5" for="r5"></label>
+                <label class="slider__control-6" for="r6"></label>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
